@@ -24,7 +24,7 @@ Pode-se usar a tabela abaixo como referência de compatibilidade
 | Microcontrolador  | Bootloader  | Placas Compatíveis  |
 | --- | --- | --- |
 | Atmega 328  | Arduino Uno   | Caduino     |
-|             |               | Frazino     |
+|             |               | Franzino     |
 | ATtiny85    | Arduino Gemma | Franzininho |
 |             | Micronucleos  | Digispark   | 
  
