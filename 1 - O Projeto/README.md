@@ -16,8 +16,10 @@ Este shield foi projetado para a gravação de bootloader em alguns microcontrol
   - 88/48/8
 - ATtiny
   - 25/45/85
- O bootloader deve ser escolhido de acordo com o microcontrolador compatível com a placa.
- Pode-se usar a tabela abaixo como referência de compatibilidade
+
+O bootloader deve ser escolhido de acordo com o microcontrolador compatível com a placa.
+
+Pode-se usar a tabela abaixo como referência de compatibilidade
  
 | Microcontrolador  | Bootloader  | Placas Compatíveis  |
 | --- | --- | --- |
