@@ -17,11 +17,12 @@ Este shield foi projetado para a gravação de bootloader em alguns microcontrol
 - ATtiny
   - 25/45/85
  O bootloader deve ser escolhido de acordo com o microcontrolador compatível com a placa.
-| Microcontrolador   | Bootloader  | Placas Compatíveis |
-|---|---|---|
-|a|b|c|
+ Pode-se usar a tabela abaixo como referência de compatibilidade
  
+| Microcontrolador  | Bootloader  | Placas Compatíveis  |
+| --- | --- | --- |
+| Atmega 328  | Arduino Uno   | Caduino     |
+|             |               | Frazino     |
+| ATtiny85    | Arduino Gemma | Franzininho |
+|             | Micronucleos  | Digispark   | 
  
- Por exemplo, deve se utilizar o bootloader do Arduino Uno para o microcontrolador Atmega 328/168. Já 
-
-## 
