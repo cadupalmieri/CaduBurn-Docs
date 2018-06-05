@@ -1,12 +1,12 @@
 
-<img alt="Atmega328" src="./boot328.jpg"  width="100" height="100">
+<img alt="Atmega328" src="./boot328.jpg"  width="400" height="300">
 
-"Posicionamento de um Atmega328"
+Figura 01 - Posicionamento de um Atmega328
 
-<img alt="ATtiny85" src="./boot85.jpg"  width="100" height="100">
+<img alt="ATtiny85" src="./boot85.jpg"  width="400" height="300">
 
-"Posicionamento de um ATtiny85"
+Figura 02 - Posicionamento de um ATtiny85
 
-<img alt="Power On" src="./power.gif"  width="100" height="100">
+<img alt="Power On" src="./power.gif"  width="400" height="300">
 
-"Comportamento ao ligar o gravador com o firmware já instalado no arduino base"
+Figura 03 - Comportamento ao ligar o gravador com o firmware já instalado no arduino base
