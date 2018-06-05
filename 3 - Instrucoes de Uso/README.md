@@ -1,9 +1,12 @@
 
-![Atmega328](./boot328.jpg?raw=true "Posicionamento de um Atmega328")
+<img alt="Atmega328" src="./boot328.jpg"  width="100" height="100">
 
-<img src="./boot328.jpg" alt="Atmega328" width="100" height="100">
+"Posicionamento de um Atmega328"
 
-![ATtiny85](./boot85.jpg?raw=true "Posicionamento de um ATtiny85")
+<img alt="ATtiny85" src="./boot85.jpg"  width="100" height="100">
 
+"Posicionamento de um ATtiny85"
 
-![Power On](./power.gif?raw=true "Comportamento ao ligar o gravador com o firmware já instalado no arduino base")
+<img alt="Power On" src="./power.gif"  width="100" height="100">
+
+"Comportamento ao ligar o gravador com o firmware já instalado no arduino base"
