@@ -11,7 +11,7 @@
   
 <img alt="Power On" src="./power.gif"  width="400" height="300">
 
-Figura 03 - Comportamento ao ligar o gravador com o firmware já instalado no arduino base
+Figura 01 - Comportamento ao ligar o gravador com o firmware já instalado no arduino base
   
   
 3.3 - Gravando o bootloader no microncontrolador
@@ -23,11 +23,11 @@ Figura 03 - Comportamento ao ligar o gravador com o firmware já instalado no ar
   
 <img alt="Atmega328" src="./boot328.jpg"  width="400" height="300">
 
-Figura 01 - Posicionamento de um Atmega328
+Figura 02 - Posicionamento de um Atmega328
 
 <img alt="ATtiny85" src="./boot85.jpg"  width="400" height="300">
 
-Figura 02 - Posicionamento de um ATtiny85
+Figura 03 - Posicionamento de um ATtiny85
 
   Após isso clique em Ferramentas/Gravar Bootloader
   
