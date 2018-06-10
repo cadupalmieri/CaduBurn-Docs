@@ -1,12 +1,12 @@
 # CaduBurn
 Repositório dedicado ao projeto e documentação do gravador de bootloader para microcontroladores de placas Arduino Compatível
-- [1 - O Projeto](https://github.com/cadupalmieri/CaduBurn/tree/master/1%20-%20O%20Projeto)
 
-- [2 - A Placa](https://github.com/cadupalmieri/CaduBurn/tree/master/2%20-%20A%20placa)
-  - [2.1 - Arquivos da PCB](https://github.com/cadupalmieri/CaduBurn/tree/master/2%20-%20A%20placa/2.1%20-%20Arquivos%20da%20PCB)
-  - [2.2 - Lista de Materiais (BOM)](https://github.com/cadupalmieri/CaduBurn/tree/master/2%20-%20A%20placa/2.2%20%20Lista%20de%20Materiais%20(BOM))
+- [1 - A Placa](https://github.com/cadupalmieri/CaduBurn/tree/master/2%20-%20A%20placa)
+  - [1.1 - Surgimento]
+  - [1.2 - Lista de Material]
+  - [1.3 - Montagem]
   
- - [3 - Instruções de Uso](https://github.com/cadupalmieri/CaduBurn/tree/master/3%20-%20Instrucoes%20de%20Uso)  
-    - [3.1 - Instalando os Drivers]()
-    - [3.2 - Configurando Arduino como gravador]()
-    - [3.3 - Gravando o bootloader no microncontrolador]()
+ - [2 - Instruções de Uso](https://github.com/cadupalmieri/CaduBurn-Docs/tree/master/2%20-%20Instruc%CC%A7o%CC%83es%20de%20Uso)  
+    - [2.1 - Instalando os Drivers](https://github.com/cadupalmieri/CaduBurn-Docs/tree/master/2%20-%20Instruc%CC%A7o%CC%83es%20de%20Uso)
+    - [2.2 - Configurando Arduino como gravador](https://github.com/cadupalmieri/CaduBurn-Docs/tree/master/2%20-%20Instruc%CC%A7o%CC%83es%20de%20Uso)
+    - [2.3 - Gravando o bootloader no microncontrolador](https://github.com/cadupalmieri/CaduBurn-Docs/tree/master/2%20-%20Instruc%CC%A7o%CC%83es%20de%20Uso)
