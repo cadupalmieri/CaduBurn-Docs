@@ -30,7 +30,7 @@ Figura 01 - Comportamento ao ligar o gravador com o firmware já instalado no ar
   
   Configure o arduino para gravar bootloader para o microcontrolador Atmega328
   
-<img alt="Atmega328_conf" src="./Boot_uno.jpg"  width="400" height="300">
+<img alt="Atmega328_conf" src="./Boot_uno.png"  width="400" height="300">
   
 <img alt="Atmega328" src="./boot328.jpg"  width="400" height="300">
 
@@ -38,7 +38,7 @@ Figura 02 - Posicionamento de um Atmega328
 
   Configure o arduino para gravar bootloader para o microcontrolador Attiny85
   
-<img alt="Attiny85_conf" src="./Boot_attiny85.jpg"  width="400" height="300">
+<img alt="Attiny85_conf" src="./Boot_attiny85.png"  width="400" height="300">
 
 <img alt="ATtiny85" src="./boot85.jpg"  width="400" height="300">
 
