@@ -10,6 +10,7 @@
 <p align="center">     
 <img alt="ISP conf" src="./ISP_Burn.png"  width="300" height="300">  
 </p>
+
 <p align="center">   
 Figura 01 - Configuração da IDE para a gração do firware ISP
 </p>
@@ -21,6 +22,7 @@ Figura 01 - Configuração da IDE para a gração do firware ISP
 <p align="center">     
 <img alt="ISP Code" src="./ISP_ok.png"  width="500" height="500">
 </p>
+
 <p align="center">   
 Figura 02 - Gravação concluida com sucesso
 </p>    
@@ -30,6 +32,7 @@ Figura 02 - Gravação concluida com sucesso
 <p align="center">       
 <img alt="Power On" src="./power.gif"  width="400" height="300">
 </p>
+
 <p align="center">   
 Figura 03 - Comportamento ao ligar o gravador com o firmware já instalado no arduino base
 </p>
@@ -46,6 +49,7 @@ Figura 03 - Comportamento ao ligar o gravador com o firmware já instalado no ar
 <p align="center">       
 <img alt="Atmega328_conf" src="./Boot_uno.png"  width="300" height="300">
 </p>
+
 <p align="center">   
 Figura 04 - Configuração da IDE para a gração do bootloader para Atmega328
 </p>
@@ -53,6 +57,7 @@ Figura 04 - Configuração da IDE para a gração do bootloader para Atmega328
 <p align="center">       
 <img alt="Atmega328" src="./boot328.jpg"  width="400" height="300">
 </p>
+
 <p align="center">   
 Figura 05 - Posicionamento de um Atmega328
 </p>
@@ -62,6 +67,7 @@ Figura 05 - Posicionamento de um Atmega328
 <p align="center">       
 <img alt="Attiny85_conf" src="./Boot_attiny85.png"  width="300" height="300">
 </p>
+
 <p align="center">   
 Figura 06 - Configuração da IDE para a gração do bootloader para Attiny85
 </p>
@@ -69,6 +75,7 @@ Figura 06 - Configuração da IDE para a gração do bootloader para Attiny85
 <p align="center">     
 <img alt="ATtiny85" src="./boot85.jpg"  width="400" height="300">
 </p>
+
 <p align="center">   
 Figura 07 - Posicionamento de um ATtiny85
 </p>
