@@ -6,8 +6,10 @@
   
 # 3.2 - Configurando Arduino como gravador
   A Configuração do arduino base como gravador é bem simples de ser feita. Selecione nas ferramentas seu arduino e em qual porta ele foi instalado.
-     
+  
+<p align="center">     
 <img alt="ISP conf" src="./ISP_Burn.png"  width="300" height="300">  
+</p>
 
 Figura 01 - Configuração da IDE para a gração do firware ISP
   
@@ -15,13 +17,17 @@ Figura 01 - Configuração da IDE para a gração do firware ISP
   Esse sketch contem um firmware que transforma o arduino em um gravador ISP que sera a base para gravar os microcontroladores externos. 
   Grave esse skecth no seu arduino e verifique se foi concluido com sucesso.
   
+<p align="center">     
 <img alt="ISP Code" src="./ISP_ok.png"  width="600" height="500">
+</p>
 
 Figura 02 - Gravação concluida com sucesso
      
   Ao ligar o arduino com o shield gravador ou resetar uma placa ja ligada com o sketch que gravamos em cima. o comportamento dos leds indicadores seguirá este padrão.
-  
+
+<p align="center">       
 <img alt="Power On" src="./power.gif"  width="400" height="300">
+</p>
 
 Figura 03 - Comportamento ao ligar o gravador com o firmware já instalado no arduino base
   
@@ -33,22 +39,30 @@ Figura 03 - Comportamento ao ligar o gravador com o firmware já instalado no ar
   Sabendo qual o microcontrolador que ira gravar. Posicione no soquete ZIF o chip na posição correta indicada. Trave o soquete para realizar o contato elétrico entre o gravador e o microcontrolador desejado.
   
   Configure o arduino para gravar bootloader para o microcontrolador Atmega328
-  
+
+<p align="center">       
 <img alt="Atmega328_conf" src="./Boot_uno.png"  width="300" height="300">
+</p>
 
 Figura 04 - Configuração da IDE para a gração do bootloader para Atmega328
-  
+
+<p align="center">       
 <img alt="Atmega328" src="./boot328.jpg"  width="400" height="300">
+</p>
 
 Figura 05 - Posicionamento de um Atmega328
 
   Configure o arduino para gravar bootloader para o microcontrolador Attiny85
-  
+
+<p align="center">       
 <img alt="Attiny85_conf" src="./Boot_attiny85.png"  width="300" height="300">
+</p>
 
 Figura 06 - Configuração da IDE para a gração do bootloader para Attiny85
 
+<p align="center">     
 <img alt="ATtiny85" src="./boot85.jpg"  width="400" height="300">
+</p>
 
 Figura 07 - Posicionamento de um ATtiny85
 
