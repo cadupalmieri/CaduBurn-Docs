@@ -5,14 +5,21 @@
   Se você esta utilizando um arduino compativel com algum driver não reconhecido pelo computador, voce deve fazer a instalação do driver que é utilizado na sua placa. Por exemplo CH340 ou CP2012.
   
 # 3.2 - Configurando Arduino como gravador
-  A Configuração do arduino base como gravador é bem simples de ser feita. Selecione nas ferramentas seu arduino e em qual porta ele foi instalado. Após isso entre em Arquivos/Exemplos/Arduino ISP. Esse Schect contem um firmware que transforma o arduino em um gravador ISP que sera a base para gravar os microcontroladores externos. 
+  A Configuração do arduino base como gravador é bem simples de ser feita. Selecione nas ferramentas seu arduino e em qual porta ele foi instalado.
+     
+<img alt="ISP conf" src="./ISP_Burn.png"  width="400" height="300">  
+  
+  Após isso entre em Arquivos/Exemplos/Arduino ISP.
+  Esse sketch contem um firmware que transforma o arduino em um gravador ISP que sera a base para gravar os microcontroladores externos. 
   Grave esse skecth no seu arduino e verifique se foi concluido com sucesso.
-  Ao ligar o arduino com o shield gravador ou resetar uma placa ja ligada com o scketch que gravamos em cima. o comportamento dos leds indicadores seguirá este padrão.
+  
+<img alt="ISP Code" src="./ISP_ok.png"  width="400" height="300">
+     
+  Ao ligar o arduino com o shield gravador ou resetar uma placa ja ligada com o sketch que gravamos em cima. o comportamento dos leds indicadores seguirá este padrão.
   
 <img alt="Power On" src="./power.gif"  width="400" height="300">
 
 Figura 01 - Comportamento ao ligar o gravador com o firmware já instalado no arduino base
-  
   
 # 3.3 - Gravando o bootloader no microncontrolador
   Agora que temos nosso arduino base configurado como gravador vamos configuralo como gravador. Para gravar o bootloader vc deve no menu ferramentas selecionar qual a placa compativel com o microcontrolador que vc deseja gravar por exemplo se for uma placa que utilize um atmega328 vc pode utilizar o bootloader para o arduino UNO. Se vc tem uma placa com base em um Franzininho um digispark que utiliza o microcontrolador Attiny85 vc pode utilizar o bootloader fornecido para o arduino gemma.
