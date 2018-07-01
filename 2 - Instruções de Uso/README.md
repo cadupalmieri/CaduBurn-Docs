@@ -10,7 +10,6 @@
 <p align="center">     
 <img alt="ISP conf" src="./ISP_Burn.png"  width="300" height="300">  
 </p>
-
 <p align="center">   
 Figura 01 - Configuração da IDE para a gração do firware ISP
 </p>
