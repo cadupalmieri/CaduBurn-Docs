@@ -7,19 +7,23 @@
 # 3.2 - Configurando Arduino como gravador
   A Configuração do arduino base como gravador é bem simples de ser feita. Selecione nas ferramentas seu arduino e em qual porta ele foi instalado.
      
-<img alt="ISP conf" src="./ISP_Burn.png"  width="400" height="350">  
+<img alt="ISP conf" src="./ISP_Burn.png"  width="300" height="300">  
+
+Figura 01 - Configuração da IDE para a gração do firware ISP
   
   Após isso entre em Arquivos/Exemplos/Arduino ISP.
   Esse sketch contem um firmware que transforma o arduino em um gravador ISP que sera a base para gravar os microcontroladores externos. 
   Grave esse skecth no seu arduino e verifique se foi concluido com sucesso.
   
 <img alt="ISP Code" src="./ISP_ok.png"  width="600" height="500">
+
+Figura 02 - Gravação concluida com sucesso
      
   Ao ligar o arduino com o shield gravador ou resetar uma placa ja ligada com o sketch que gravamos em cima. o comportamento dos leds indicadores seguirá este padrão.
   
 <img alt="Power On" src="./power.gif"  width="400" height="300">
 
-Figura 01 - Comportamento ao ligar o gravador com o firmware já instalado no arduino base
+Figura 03 - Comportamento ao ligar o gravador com o firmware já instalado no arduino base
   
 # 3.3 - Gravando o bootloader no microncontrolador
   Agora que temos nosso arduino base configurado como gravador vamos configuralo como gravador. Para gravar o bootloader vc deve no menu ferramentas selecionar qual a placa compativel com o microcontrolador que vc deseja gravar por exemplo se for uma placa que utilize um atmega328 vc pode utilizar o bootloader para o arduino UNO. Se vc tem uma placa com base em um Franzininho um digispark que utiliza o microcontrolador Attiny85 vc pode utilizar o bootloader fornecido para o arduino gemma.
@@ -30,19 +34,23 @@ Figura 01 - Comportamento ao ligar o gravador com o firmware já instalado no ar
   
   Configure o arduino para gravar bootloader para o microcontrolador Atmega328
   
-<img alt="Atmega328_conf" src="./Boot_uno.png"  width="400" height="300">
+<img alt="Atmega328_conf" src="./Boot_uno.png"  width="300" height="300">
+
+Figura 04 - Configuração da IDE para a gração do bootloader para Atmega328
   
 <img alt="Atmega328" src="./boot328.jpg"  width="400" height="300">
 
-Figura 02 - Posicionamento de um Atmega328
+Figura 05 - Posicionamento de um Atmega328
 
   Configure o arduino para gravar bootloader para o microcontrolador Attiny85
   
-<img alt="Attiny85_conf" src="./Boot_attiny85.png"  width="400" height="300">
+<img alt="Attiny85_conf" src="./Boot_attiny85.png"  width="300" height="300">
+
+Figura 06 - Configuração da IDE para a gração do bootloader para Attiny85
 
 <img alt="ATtiny85" src="./boot85.jpg"  width="400" height="300">
 
-Figura 03 - Posicionamento de um ATtiny85
+Figura 07 - Posicionamento de um ATtiny85
 
   Após isso clique em Ferramentas/Gravar Bootloader
   
